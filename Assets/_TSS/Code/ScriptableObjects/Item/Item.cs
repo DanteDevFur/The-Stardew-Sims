@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace _TSS.Item
 {
-    [CreateAssetMenu(fileName = "ItemFile", menuName = "_TSS/Item", order = 0)]
+    [CreateAssetMenu(fileName = "ItemFile", menuName = "_TSS/Item/Item", order = 0)]
     public class Item : ScriptableObject
     {
         [field: SerializeField] public string Name { get; private set; }
