@@ -2137,6 +2137,10 @@ PrefabInstance:
       propertyPath: m_CategoryHash
       value: 0.025054464
       objectReference: {fileID: 0}
+    - target: {fileID: 5236683663137382262, guid: 26af03e168287b94a94ddb13746a1458, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
+      objectReference: {fileID: 0}
     - target: {fileID: 8761072210746562677, guid: 26af03e168287b94a94ddb13746a1458, type: 3}
       propertyPath: m_labelHash
       value: 0.00000040954276
