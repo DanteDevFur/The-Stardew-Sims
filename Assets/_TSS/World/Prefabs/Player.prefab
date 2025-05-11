@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6229346903248527900}
   - component: {fileID: 5237831130464557381}
+  - component: {fileID: 7494684583503716625}
+  - component: {fileID: 8615208847258449877}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -88,6 +90,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7494684583503716625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286463725709555127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 9652819df19ac6a4a9c90dd22b1dba04, type: 3}
+--- !u!114 &8615208847258449877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286463725709555127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CategoryHash: 0.025054464
+  m_labelHash: 0.00000040954276
+  m_SpriteKey: 0
+  m_SpriteHash: 288491133
 --- !u!1 &356170727031628627
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,6 +177,8 @@ GameObject:
   m_Component:
   - component: {fileID: 49196289453403483}
   - component: {fileID: 1411268979851726381}
+  - component: {fileID: 8174217790949525297}
+  - component: {fileID: 5152450388158932985}
   m_Layer: 0
   m_Name: Hair
   m_TagString: Untagged
@@ -208,7 +242,7 @@ SpriteRenderer:
   m_SortingLayerID: 1895473601
   m_SortingLayer: 1
   m_SortingOrder: 3
-  m_Sprite: {fileID: 1033430384, guid: 84138e316ff33174ab413c43d0625e2c, type: 3}
+  m_Sprite: {fileID: -533592773, guid: 84138e316ff33174ab413c43d0625e2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -219,6 +253,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8174217790949525297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2675550636907512413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 77dfac00b6a41bd4482e2710851d04fb, type: 3}
+--- !u!114 &5152450388158932985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2675550636907512413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CategoryHash: 0
+  m_labelHash: 0
+  m_SpriteKey: 0
+  m_SpriteHash: 288491133
 --- !u!1 &4176045240667840007
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,6 +293,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5236683663137382262}
   - component: {fileID: 9066534245352501959}
+  - component: {fileID: 8278259840617605180}
+  - component: {fileID: 8761072210746562677}
   m_Layer: 0
   m_Name: Shoes
   m_TagString: Untagged
@@ -292,7 +358,7 @@ SpriteRenderer:
   m_SortingLayerID: 1895473601
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: -1627240147, guid: 561c6524e55bc2f449dce4d6928972d9, type: 3}
+  m_Sprite: {fileID: 2059270622, guid: ca32373b859a8ce4e909900739527354, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -303,6 +369,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8278259840617605180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176045240667840007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 1d53274c0db11dd47ad1ce3b70cc6884, type: 3}
+--- !u!114 &8761072210746562677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176045240667840007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CategoryHash: 0
+  m_labelHash: 0
+  m_SpriteKey: 0
+  m_SpriteHash: 288491133
 --- !u!1 &4355384579158962288
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +837,8 @@ GameObject:
   - component: {fileID: 79444148120031771}
   - component: {fileID: 8709200520796713095}
   - component: {fileID: 2848168351160813991}
+  - component: {fileID: 8980177161845223821}
+  - component: {fileID: 8850562003163685515}
   m_Layer: 0
   m_Name: Eyes
   m_TagString: Untagged
@@ -805,7 +903,7 @@ SpriteRenderer:
   m_SortingLayerID: 1895473601
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 899572093, guid: 9c39ff1c37b05fa4c99541f7c06824f1, type: 3}
+  m_Sprite: {fileID: 1849389968, guid: 9c39ff1c37b05fa4c99541f7c06824f1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -828,6 +926,36 @@ SortingGroup:
   m_SortingLayer: 1
   m_SortingOrder: 1
   m_SortAtRoot: 1
+--- !u!114 &8980177161845223821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7667054376153479868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: f9800b52a79ed9e4c9b0187b2c5b433a, type: 3}
+--- !u!114 &8850562003163685515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7667054376153479868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CategoryHash: 0
+  m_labelHash: 0
+  m_SpriteKey: 0
+  m_SpriteHash: 288491133
 --- !u!1 &8118581616242851925
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,6 +966,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1749885136485613932}
   - component: {fileID: 147508706798897375}
+  - component: {fileID: 124158406951864834}
+  - component: {fileID: 9168786770249422182}
   m_Layer: 0
   m_Name: Shirt
   m_TagString: Untagged
@@ -912,6 +1042,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &124158406951864834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118581616242851925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 47f27389e32582f43ac4842a3d347c43, type: 3}
+--- !u!114 &9168786770249422182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8118581616242851925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CategoryHash: 0
+  m_labelHash: 0
+  m_SpriteKey: 0
+  m_SpriteHash: 288491133
 --- !u!1 &8658937308638231186
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +1082,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1143719002947546891}
   - component: {fileID: 3514764057492867433}
+  - component: {fileID: 5731390948128450030}
+  - component: {fileID: 397739994378797784}
   m_Layer: 0
   m_Name: Pants
   m_TagString: Untagged
@@ -985,17 +1147,47 @@ SpriteRenderer:
   m_SortingLayerID: 1895473601
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -344705246, guid: a78a8d8876fbf734296e14dda4fcea0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.56017864, y: 0.28}
+  m_Size: {x: 1.2804084, y: 1.2800001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5731390948128450030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658937308638231186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c29cff538c195c249b69c6f2236de67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library: []
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: ab2b1f39b5016a34ba6e6ac8b48439bb, type: 3}
+--- !u!114 &397739994378797784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658937308638231186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CategoryHash: 0
+  m_labelHash: 0
+  m_SpriteKey: 0
+  m_SpriteHash: 288491133
 --- !u!1 &9034607231711014987
 GameObject:
   m_ObjectHideFlags: 0
