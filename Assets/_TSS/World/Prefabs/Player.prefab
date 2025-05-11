@@ -301,8 +301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0
-  m_labelHash: 0
+  m_CategoryHash: 0.025054464
+  m_labelHash: 0.00000040954276
   m_SpriteKey: 0
   m_SpriteHash: 288491133
 --- !u!1 &4176045240667840007
@@ -417,8 +417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0
-  m_labelHash: 0
+  m_CategoryHash: 0.025054464
+  m_labelHash: 0.00000040954276
   m_SpriteKey: 0
   m_SpriteHash: 288491133
 --- !u!1 &4355384579158962288
@@ -432,6 +432,7 @@ GameObject:
   - component: {fileID: 8780945760652527545}
   - component: {fileID: 192703124119223211}
   - component: {fileID: 1515530730377989034}
+  - component: {fileID: 912910723807610389}
   - component: {fileID: 5469571491097154496}
   - component: {fileID: 6923574700167556739}
   m_Layer: 0
@@ -487,6 +488,20 @@ MonoBehaviour:
   input: {fileID: 192703124119223211}
   rb: {fileID: 6923574700167556739}
   playerData: {fileID: 11400000, guid: 17d12cc3ab5f4e641acad8fffa9c15a6, type: 2}
+--- !u!114 &912910723807610389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355384579158962288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8e2a7b95374e59b3955f9b5477def0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: {fileID: 192703124119223211}
+  animator: {fileID: 8144259496434928633}
 --- !u!70 &5469571491097154496
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -974,8 +989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0
-  m_labelHash: 0
+  m_CategoryHash: 0.025054464
+  m_labelHash: 0.00000040954276
   m_SpriteKey: 0
   m_SpriteHash: 288491133
 --- !u!1 &8118581616242851925
@@ -1090,8 +1105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0
-  m_labelHash: 0
+  m_CategoryHash: 0.025054464
+  m_labelHash: 0.00000040954276
   m_SpriteKey: 0
   m_SpriteHash: 288491133
 --- !u!1 &8658937308638231186
@@ -1206,8 +1221,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0
-  m_labelHash: 0
+  m_CategoryHash: 0.025054464
+  m_labelHash: 0.00000040954276
   m_SpriteKey: 0
   m_SpriteHash: 288491133
 --- !u!1 &9034607231711014987
